@@ -1,7 +1,6 @@
 server:
   port: 8090
   hostname: localhost
-#  hostname: 192.168.0.106
     
 spring:
   application:
@@ -9,7 +8,6 @@ spring:
   data:
     mongodb:
       uri: mongodb://${server.hostname}:27017/customer
-#      uri: mongodb://mongo:27017/customer
   kafka:
     bootstrap-servers: ${server.hostname}:29092
 
