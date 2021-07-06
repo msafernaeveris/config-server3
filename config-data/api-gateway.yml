@@ -6,7 +6,7 @@ server:
 zuul:
   routes:
     customer:
-      path: /**
+      path: /api/customer-service/**
       service-id: customer-service
       url: http://${server.hostname}:8090/
     product:
